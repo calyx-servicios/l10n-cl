@@ -2,7 +2,7 @@
 Módulos CE utilizados para la Localización Chilena.
 
 # Instalación
-Usar el comando "$ pip install ." dentro de factura_electronica para ejecutar el setup.py
+Usar el comando "$ pip install ." dentro de facturacion_electronica para ejecutar el setup.py
 
 # Repositorios de los maintainers originales
 https://gitlab.com/dansanti/l10n_cl_fe
