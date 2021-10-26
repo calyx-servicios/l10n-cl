@@ -1,0 +1,59 @@
+{
+    "FechaInicio": "2016-11-01",
+    "FechaFinal": "2016-11-01",
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "Modo": "certificacion",
+      "Resolucion": 0,
+      "FechaResolucion": "2016-06-14",
+      "ValorIva": 19
+    },
+    "firma_electronica": {
+        "string_firma": "asdfsfasfasdfadfasdf",
+        "string_password": "password_aprtura",
+        "rut_firmante": "16291998-9" 
+    },
+    "Documentos": [
+        {
+            "TipoDTE": 39,
+            "documentos":[
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 37,
+                            "Fecha": "2016-11-01"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntNeto": 25000,
+                        "MntIVA": 22,
+                        "MntExento": 222,
+                        "MntTotal": 300000
+                    }
+                },
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 38,
+                            "Fecha": "2016-11-01"
+                            
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntNeto": 25000,
+                        "MntIVA": 22,
+                        "MntExento": 222,
+                        "MntTotal": 300000
+                    }
+                    
+                }
+            ]
+        }
+    ]
+}

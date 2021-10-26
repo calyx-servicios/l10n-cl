@@ -1,0 +1,61 @@
+{
+    "test": true,
+    "verify": true,
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios integrales de informática",
+      "Actecos": [
+          726000
+        ],
+      "DirOrigen": "Melipilla",
+      "CmnaOrigen": "Melipilla",
+      "Modo": "certificacion",
+      "NroResol": 0,
+      "FchResol": "2016-06-14",
+      "CdgSIISucur":  123123,
+      "Sucursal": "nombre sucrusal"
+    },
+    "firma_electronica": {
+        "string_firma": "stringfirma",
+        "string_password": "passfirma",
+        "rut_firmante": "16291998-9"
+    },
+    "Documento": [
+        {
+            "TipoDTE": 33,
+            "documentos":[
+                {
+                    "NroDTE": 1,
+                    "Folio": 36,
+                    "sii_xml_request": "<DTE>....</DTE>"
+                },
+                {
+                    "NroDTE": 2,
+                    "Folio": 37,
+                    "sii_xml_request": "<DTE>.....</DTE>"
+                },
+                {
+                    "NroDTE": 3,
+                    "Folio": 38,
+                    "sii_xml_request": "<DTE>....</DTE>"
+                },
+                {
+                    "NroDTE": 4,
+                    "Folio": 39,
+                    "sii_xml_request": "<DTE>......</DTE>"
+                }
+            ]
+        },
+        {
+            "TipoDTE": 56,
+            "documentos":[
+                {
+                    "NroDTE": 5,
+                    "Folio": 37,
+                    "sii_xml_request": "<DTE>......</DTE>"
+                }
+            ]
+        }
+    ]
+}

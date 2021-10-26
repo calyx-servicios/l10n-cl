@@ -1,0 +1,527 @@
+{
+      "test": true,
+      "verify": true,
+      "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios informáticos integrales",
+      "Actecos": [
+          726000
+        ],
+      "DirOrigen": "Direccion Ejemplo",
+      "Telefono": "+56997111380",
+      "CmnaOrigen": "Santiago",
+      "CiudadOrigen": "Santiago",
+      "CorreoEmisor": "contacto@odoocoop.cl",
+      "Modo": "certificacion",
+      "NroResol": 0,
+      "FchResol": "2018-07-18",
+      "ValorIva": 19
+    },
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "testpass",
+        "rut_firmante": "16291998-9"
+    },
+
+    "Documento": [
+        {
+            "TipoDTE": 33,
+            "caf_file": [
+                "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+NzY4ODMyNDEtMjwvUkU+CjxSUz5PRE9PQ09PUCBTUEE8L1JTPgo8VEQ+MzM8L1REPgo8Uk5HPjxEPjQxPC9EPjxIPjUwPC9IPjwvUk5HPgo8RkE+MjAxOC0wOS0yNTwvRkE+CjxSU0FQSz48TT5wd3R5MlB2ME5CNEpLUklQemhKb2FVSnJsYi95NmhlOGNmQ3hJZ2ZDZnloN3ZRKzZWa2dJNkhobExiZk42RGY1MzFUR01VY2JFbzNOOHBVdklya1dqdz09PC9NPjxFPkF3PT08L0U+PC9SU0FQSz4KPElESz4xMDA8L0lESz4KPC9EQT4KPEZSTUEgYWxnb3JpdG1vPSJTSEExd2l0aFJTQSI+UzRMeHQ5aGNBVHluK3QyT2dOMDBTa3hkZ3dRMEhpVDFxVjAybXlEVkVLdUQySWh5ckJ3T3hzVFY0MEFvbEZFeUk4ekRPMFVXSEIvOWN4cjdORzN2VlE9PTwvRlJNQT4KPC9DQUY+CjxSU0FTSz4tLS0tLUJFR0lOIFJTQSBQUklWQVRFIEtFWS0tLS0tCk1JSUJPZ0lCQUFKQkFLY0xjdGo3OURRZUNTa1NEODRTYUdsQ2E1Vy84dW9YdkhId3NTSUh3bjhvZTcwUHVsWkkKQ09oNFpTMjN6ZWczK2Q5VXhqRkhHeEtOemZLVkx5SzVGbzhDQVFNQ1FHOWM5enRTb3MxcFczQzJ0VFFNUlp1QgpuUTUvOTBhNmZhRkxJTUZhZ2FvWjZScS9hNjNWZDFQLzhTWm1iOUVxY29SUXNaZk8vTkpEMjVmSXY0cXY4TXNDCklRRFpLaFMrMTNmeGhGWkpEQmhWSUdWSnd0R1cvejJzVG44bEJXUDZyQnRHbHdJaEFNVHEyOW42RCtSbUlqSm8KQmRFT0V3UldDaVRPVXZPSXFOK0poQlVtbGViSkFpRUFrTWE0ZnpwUDlsZzVoZ2dRT01CRGhvSGhEMVRUeURSVQp3MWp0VWNnU0x3OENJUUNEUnowNy9BcVlSQmJNUlZrMkNXSUM1QWJETkRkTkJjWHFXNjFqYnc2WjJ3SWhBSWRaCmNPeUk1MzB0K3puUXNRZ3NFVkxUSEc0WU9NQURtdDRUQnVsUkNzZWkKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0KPC9SU0FTSz4KCjxSU0FQVUJLPi0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tCk1Gb3dEUVlKS29aSWh2Y05BUUVCQlFBRFNRQXdSZ0pCQUtjTGN0ajc5RFFlQ1NrU0Q4NFNhR2xDYTVXLzh1b1gKdkhId3NTSUh3bjhvZTcwUHVsWklDT2g0WlMyM3plZzMrZDlVeGpGSEd4S056ZktWTHlLNUZvOENBUU09Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo8L1JTQVBVQks+CjwvQVVUT1JJWkFDSU9OPgo="
+                ],
+            "documentos":[
+                {
+                    "NroDTE": 1,
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 41,
+                            "FechaEmis": "2018-08-10"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                    },
+                    "Detalle": [
+                        {
+                            "NroLinDet": 1,
+                            "NmbItem": "cajón AFECTO",
+                            "QtyItem": 172,
+                            "PrcItem": 3718,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 2,
+                            "NmbItem": "Relleno AFECTO",
+                            "QtyItem": 72,
+                            "PrcItem": 6198,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        }
+                    ],
+                    "Referencia": [
+                        {
+                            "NroLinRef": 1,
+                            "FolioRef": 41,
+                            "TpoDocRef": "SET",
+                            "RazonRef": "CASO 977467-1",
+                            "FchRef": "2018-07-01"
+                        }
+                    ]
+                },
+                {
+                    "NroDTE": 2,
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 42,
+                            "FechaEmis": "2018-08-10"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                    },
+                    "Detalle": [
+                        {
+                            "NroLinDet": 1,
+                            "NmbItem": "Pañuelo AFECTO",
+                            "QtyItem": 805,
+                            "PrcItem": 6224,
+                            "DescuentoPct": 10,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 2,
+                            "NmbItem": "ITEM 2 AFECTO",
+                            "QtyItem": 751,
+                            "PrcItem": 5274,
+                            "DescuentoPct": 24,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        }
+                    ],
+                    "Referencia": [
+                        {
+                            "NroLinRef": 2,
+                            "FolioRef": 42,
+                            "TpoDocRef": "SET",
+                            "RazonRef": "CASO 977467-2",
+                            "FchRef": "2018-07-01"
+                        }
+                    ]
+                },
+                {
+                    "NroDTE": 3,
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 43,
+                            "FechaEmis": "2018-08-10"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                    },
+                    "Detalle": [
+                        {
+                            "NroLinDet": 1,
+                            "NmbItem": "Pintura B&W AFECTO",
+                            "QtyItem": 69,
+                            "PrcItem": 7256,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 2,
+                            "NmbItem": "ITEM 2 AFECTO",
+                            "QtyItem": 244,
+                            "PrcItem": 4140,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 3,
+                            "IndExe": true,
+                            "NmbItem": "ITEM 3 SERVICIO EXENTO",
+                            "QtyItem": 1,
+                            "PrcItem": 35344
+                        }
+                    ],
+                    "Referencia": [
+                        {
+                            "NroLinRef": 3,
+                            "FolioRef": 43,
+                            "TpoDocRef": "SET",
+                            "RazonRef": "CASO 977467-3",
+                            "FchRef": "2018-07-01"
+                        }
+                    ]
+
+                },
+                {
+                    "NroDTE": 4,
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 44,
+                            "FechaEmis": "2018-08-10"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                    },
+                    "DscRcgGlobal":[
+                        {
+                          "NroLinDR": 1,
+                          "TpoMov": "D",
+                          "GlosaDR": "DESCUENTO GLOBAL ITEMES AFECTOS",
+                          "TpoValor": "%",
+                          "ValorDR": "24",
+                          "Afectos": true,
+                          "Exentos": false
+                        }
+
+                        ],
+                    "Detalle": [
+                        {
+                            "NroLinDet": 1,
+                            "NmbItem": "ITEM 1 AFECTO",
+                            "QtyItem": 444,
+                            "PrcItem": 6295,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 2,
+                            "NmbItem": "ITEM 2 AFECTO",
+                            "QtyItem": 188,
+                            "PrcItem": 7718,
+                            "Impuesto" : [
+                              {
+                                "sii_code": 14
+                              }
+                            ]
+                        },
+                        {
+                            "NroLinDet": 3,
+                            "IndExe":  true,
+                            "NmbItem": "ITEM 3 SERVICIO EXENTO",
+                            "QtyItem": 2,
+                            "PrcItem": 6839
+                        }
+                    ],
+                    "Referencia": [
+                        {
+                            "NroLinRef": 4,
+                            "FolioRef": 44,
+                            "TpoDocRef": "SET",
+                            "RazonRef": "CASO 977467-4",
+                            "FchRef": "2018-07-01"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+           "TipoDTE": 61,
+           "caf_file": [
+               "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+NzY4ODMyNDEtMjwvUkU+CjxSUz5PRE9PQ09PUCBTUEE8L1JTPgo8VEQ+NjE8L1REPgo8Uk5HPjxEPjIxPC9EPjxIPjMwPC9IPjwvUk5HPgo8RkE+MjAxOC0wOS0yNTwvRkE+CjxSU0FQSz48TT5yTnB4b0tWT2pLRHdiVy92YlQ3T0w3dHBIcStnanB6WG13RTdEcXcrSGoydi9MY1VqY2dSREVzNlBvMSsxM3JtVFNYYkN2QUFRenFhVXZHSEJuRnJyUT09PC9NPjxFPkF3PT08L0U+PC9SU0FQSz4KPElESz4xMDA8L0lESz4KPC9EQT4KPEZSTUEgYWxnb3JpdG1vPSJTSEExd2l0aFJTQSI+T1R0dnlEK2dGaXhlUUNaOGtNamZXZ0Vka3lIbVJRdk1QYSt6TEc0cDFjd2Qvb0M3RzM4NkZPZTRjTHg1TUtNemhzUHNsMXRMSjl6bHdWQk81VkhZNmc9PTwvRlJNQT4KPC9DQUY+CjxSU0FTSz4tLS0tLUJFR0lOIFJTQSBQUklWQVRFIEtFWS0tLS0tCk1JSUJPUUlCQUFKQkFLemFjYUNsVG95ZzhHMXY3MjAremkrN2FSNnZvSTZjMTVzQk93NnNQaDQ5ci95M0ZJM0kKRVF4TE9qNk5mdGQ2NWswbDJ3cndBRU02bWxMeGh3WnhhNjBDQVFNQ1FITThTOEJ1TkYzQW9FajFTa2pVaVhVbgptMm5LYXdtOTVSSUEwZ25JS1dsOVhGWU91V2NnTWI4Ym1nSzFpUDBpUVI4YzRHcC93R0p0T01ZUTR2emZQU3NDCklRRGZjMVdCNHhxYzRiSTZvYldsNDJCckx1N3c1bGo2OXpJQWs4UGpFdlJWWFFJaEFNWUlTM3lQL1NtTDc1aVkKeDR0NFp4bHZpNW1FMTJTNFpNU1dGRTk0TGpxUkFpRUFsUGVPVnBkbkUwRWhmR3ZPYnBlVm5NbjBvSm1RcDA5MgpxdzB0UWd5aTQ1TUNJUUNFQlllb1gvNGJzcCs3RUlVSHBab1E5UWU3cmVUdDBFTXR1V0xmcFhRbkN3SWdJT1V3ClZkYnFWOXIzMitNcG9FdnFlc3Nlb1FkRWNhbTVtaEgxaDN3YUc3ND0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0KPC9SU0FTSz4KCjxSU0FQVUJLPi0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tCk1Gb3dEUVlKS29aSWh2Y05BUUVCQlFBRFNRQXdSZ0pCQUt6YWNhQ2xUb3lnOEcxdjcyMCt6aSs3YVI2dm9JNmMKMTVzQk93NnNQaDQ5ci95M0ZJM0lFUXhMT2o2TmZ0ZDY1azBsMndyd0FFTTZtbEx4aHdaeGE2MENBUU09Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo8L1JTQVBVQks+CjwvQVVUT1JJWkFDSU9OPgo="
+               ],
+           "documentos":[
+               {
+                   "NroDTE": 5,
+                   "Encabezado": {
+                       "IdDoc": {
+                           "Folio": 21,
+                           "FechaEmis": "2017-12-10"
+                       },
+                       "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                   },
+                    "Detalle": [
+                             {
+                                 "NroLinDet": 1,
+                                 "NmbItem": "cajón AFECTO",
+                                 "QtyItem": 172,
+                                 "PrcItem": 3718,
+                                 "Impuesto" : [
+                                     {
+                                         "sii_code": 14
+                                     }
+                                 ]
+                             },
+                             {
+                                 "NroLinDet": 2,
+                                 "NmbItem": "Relleno AFECTO",
+                                 "QtyItem": 72,
+                                 "PrcItem": 6198,
+                                 "Impuesto" : [
+                                     {
+                                         "sii_code": 14
+                                     }
+                                 ]
+                             }
+                     ],
+                    "Referencia": [
+                     {
+                       "NroLinRef": 1,
+                       "FolioRef": 21,
+                       "TpoDocRef": "SET",
+                       "RazonRef": "CASO 977467-5",
+                       "FchRef": "2018-07-01"
+                     },
+                     {
+                       "NroLinRef": 2,
+                       "TpoDocRef": 41,
+                       "FolioRef": 14,
+                       "FchRef": "2018-07-01",
+                       "CodRef": 2,
+                       "RazonRef": "Dice: y debe decir:"
+                     }
+
+                   ]
+               },
+               {
+                   "NroDTE": 6,
+                   "Encabezado": {
+                       "IdDoc": {
+                           "Folio": 22,
+                           "FechaEmis": "2017-12-10"
+                       },
+                       "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                   },
+                   "Detalle": [
+                     {
+                         "NroLinDet": 1,
+                         "NmbItem": "Pañuelo AFECTO",
+                         "QtyItem": 296,
+                         "PrcItem": 6224,
+                         "DescuentoPct": 10,
+                         "Impuesto" : [
+                           {
+                             "sii_code": 14
+                           }
+                         ]
+                     },
+                     {
+                         "NroLinDet": 2,
+                         "NmbItem": "ITEM 2 AFECTO",
+                         "QtyItem": 509,
+                         "PrcItem": 5274,
+                         "DescuentoPct": 24,
+                         "Impuesto" : [
+                           {
+                             "sii_code": 14
+                           }
+                         ]
+                     }
+                   ],
+                   "Referencia": [
+                     {
+                       "NroLinRef": 1,
+                       "FolioRef": 22,
+                       "TpoDocRef": "SET",
+                       "RazonRef": "CASO 977467-6",
+                       "FchRef": "2018-07-01"
+                     },
+                     {
+                       "NroLinRef": 2,
+                       "TpoDocRef": 33,
+                       "FolioRef": 42,
+                       "FchRef": "2018-07-01",
+                       "CodRef": 1,
+                       "RazonRef": "Devolución de artículos"
+                     }
+                   ]
+               },
+               {
+                   "NroDTE": 7,
+                   "Encabezado": {
+                       "IdDoc": {
+                           "Folio": 23,
+                           "FechaEmis": "2017-12-10"
+                       },
+                       "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                   },
+                   "Detalle": [
+                     {
+                         "NroLinDet": 1,
+                         "NmbItem": "Pintura B&W AFECTO",
+                         "QtyItem": 69,
+                         "PrcItem": 7256,
+                         "Impuesto" : [
+                           {
+                             "sii_code": 14
+                           }
+                         ]
+                     },
+                     {
+                         "NroLinDet": 2,
+                         "NmbItem": "ITEM 2 AFECTO",
+                         "QtyItem": 244,
+                         "PrcItem": 4140,
+                         "Impuesto" : [
+                           {
+                             "sii_code": 14
+                           }
+                         ]
+                     },
+                     {
+                         "NroLinDet": 3,
+                         "IndExe": true,
+                         "NmbItem": "ITEM 3 SERVICIO EXENTO",
+                         "QtyItem": 1,
+                         "PrcItem": 35344
+                     }
+                   ],
+                   "Referencia": [
+                     {
+                       "NroLinRef": 1,
+                       "FolioRef": 23,
+                       "TpoDocRef": "SET",
+                       "RazonRef": "CASO 977467-7",
+                       "FchRef": "2018-07-01"
+                     },
+                     {
+                       "NroLinRef": 2,
+                       "TpoDocRef": 43,
+                       "FolioRef": 16,
+                       "FchRef": "2018-07-01",
+                       "CodRef": 1,
+                       "RazonRef": "Factura anulada"
+                     }
+
+                   ]
+               }
+           ]
+       },
+       {
+           "TipoDTE": 56,
+           "caf_file": [
+               "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+NzY4ODMyNDEtMjwvUkU+CjxSUz5PRE9PQ09PUCBTUEE8L1JTPgo8VEQ+NTY8L1REPgo8Uk5HPjxEPjE8L0Q+PEg+MTA8L0g+PC9STkc+CjxGQT4yMDE4LTA4LTA2PC9GQT4KPFJTQVBLPjxNPnhwYVI1STJjQUpSdzB2dXJyZmlYMlNYNWVZVkhLRUpkZmpDd1R2bXRLSDRqUEFwbU9KQWZoY3ZOeE10ZDQwUDF6UUxhMEJZUS9uNytMbXdkYk1Lcld3PT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5TQ0xGY3phalpOR1dzdEtNSURUZHJ1T1J3c2gxQUpoTmhwL01KUktlbG1PSkRzY0ZDY2h4QjFBV2xkSXZUYnB3UWl4cElVSTQ3a2NoQnBCbFFYS0kwdz09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk93SUJBQUpCQU1hV2tlU05uQUNVY05MN3E2MzRsOWtsK1htRlJ5aENYWDR3c0U3NXJTaCtJendLWmppUQpINFhMemNUTFhlTkQ5YzBDMnRBV0VQNSsvaTVzSFd6Q3Exc0NBUU1DUVFDRVpHRkRDUktyRGFDTXA4ZkpVR1U3CmJxWlJBNFRGZ1pPcGRjcmZVUjRhL1pXRmpTYkNrZG5YYjg2enpRM05IekpQS0JaN2RSOTB0cVU5S29hNmdHYXIKQWlFQTRtYitUZnFIYTlBZE9Fd2pobGRBeE5lditqVzg3aERmbGUxWFlHbThvUUVDSVFEZ2pMaGVHaTNzOG9iZgphdlJDMkZSbGZwYSs0U2x6dm8xd1pWVHk2MFZ3V3dJaEFKYnZWRFA4V2tmZ0UzcmRiUVE2S3kzbEgvd2owMGxnCmxRNmVPa0JHZmNDckFpRUFsYk1sbEJGejgweFo2a2ROZ2VXTm1QOFBLZXR3OTlSZVN1NDRvZkl1U3VjQ0lRQ28KT3poQWszb3cxNEM2THhuYVNJaEhqR0ZycnR2S2U5cXB1WGxEM21ueW5BPT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0KPC9SU0FTSz4KCjxSU0FQVUJLPi0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tCk1Gb3dEUVlKS29aSWh2Y05BUUVCQlFBRFNRQXdSZ0pCQU1hV2tlU05uQUNVY05MN3E2MzRsOWtsK1htRlJ5aEMKWFg0d3NFNzVyU2grSXp3S1pqaVFINFhMemNUTFhlTkQ5YzBDMnRBV0VQNSsvaTVzSFd6Q3Exc0NBUU09Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo8L1JTQVBVQks+CjwvQVVUT1JJWkFDSU9OPgo="
+            ],
+           "documentos":[
+               {
+                   "NroDTE": 8,
+                   "Encabezado": {
+                       "IdDoc": {
+                           "Folio": 7,
+                           "FechaEmis": "2016-11-01"
+                       },
+                       "Receptor": {
+                            "RUTRecep": "16291998-9",
+                            "RznSocRecep": "Daniel Santibáñez Polanco",
+                            "GiroRecep": "Insumos",
+                            "DirRecep": "Nunoa 5 ",
+                            "CmnaRecep": "Nunoa",
+                            "CiudadRecep": "Santiago"
+                        }
+                   },
+                   "Detalle": [
+                       {
+                           "NroLinDet": 1,
+                           "NmbItem": "cajón AFECTO",
+                           "QtyItem": 172,
+                           "PrcItem": 3718,
+                           "Impuesto" : [
+                             {
+                               "sii_code": 14
+                             }
+                           ]
+                       },
+                       {
+                           "NroLinDet": 2,
+                           "NmbItem": "Relleno AFECTO",
+                           "QtyItem": 72,
+                           "PrcItem": 6198,
+                           "Impuesto" : [
+                             {
+                               "sii_code": 14
+                             }
+                           ]
+                       }
+                   ],
+                    "Referencia": [
+                   {
+                     "NroLinRef": 1,
+                     "FolioRef": 7,
+                     "TpoDocRef": "SET",
+                     "RazonRef": "CASO 977467-8",
+                     "FchRef": "2018-07-01"
+                   },
+                   {
+                       "NroLinRef": 2,
+                       "FolioRef": 21,
+                       "TpoDocRef": 61,
+                       "CodRef": 1,
+                       "RazonRef": "ANULA NOTA DE CREDITO ELECTRONICA",
+                       "FchRef":  "2016-11-30"
+                   }
+                 ]
+
+               }
+           ]
+       }
+
+    ]
+}

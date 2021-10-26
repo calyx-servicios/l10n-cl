@@ -1,0 +1,187 @@
+{
+    "test": true,
+    "verify": true,
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios informáticos integrales",
+      "Actecos": [
+          726000
+        ],
+      "DirOrigen": "Direccion Ejemplo",
+      "Telefono": "+56997111380",
+      "CmnaOrigen": "Santiago",
+      "CiudadOrigen": "Santiago",
+      "CorreoEmisor": "contacto@odoocoop.cl",
+      "Modo": "certificacion",
+      "NroResol": 0,
+      "FchResol": "2018-07-18",
+      "ValorIva": 19
+    },
+    "firma_electronica": {
+        "string_firma": "MII..",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "Libro":
+    {
+        "TipoOperacion": "VENTA",
+        "PeriodoTributario": "2018-06",
+        "TipoEnvio": "TOTAL",
+        "Documento": [
+            {
+                "TipoDTE": 33,
+                "documentos":[
+                    {
+                        "NroDte": 1,
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 1,
+                                "FechaEmis": "2018-08-10"
+                            },
+                            "Receptor": {
+                                "RUTRecep": "16291998-9",
+                                "RznSocRecep": "Daniel Santibáñez Polanco",
+                                "GiroRecep": "Insumos",
+                                "DirRecep": "Nunoa 5 ",
+                                "CmnaRecep": "Nunoa",
+                                "CiudadRecep": "Santiago"
+                            }
+                        },
+                        "Detalle": [
+                            {
+                                "NroLinDet": 1,
+                                "NmbItem": "Relleno AFECTO",
+                                "QtyItem": 54,
+                                "PrcItem": 1808,
+                                "Impuesto" : [
+                                  {
+                                    "sii_code": 14
+                                  }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "NroDte": 2,
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 2,
+                                "FechaEmis": "2018-08-10"
+                            },
+                            "Receptor": {
+                                "RUTRecep": "16291998-9",
+                                "RznSocRecep": "Daniel Santibáñez Polanco",
+                                "GiroRecep": "Insumos",
+                                "DirRecep": "Nunoa5 ",
+                                "CmnaRecep": "Nunoa",
+                                "CiudadRecep": "Santiago"
+                            }
+                        },
+                        "Detalle": [
+                            {
+                                "NroLinDet": 1,
+                                "NmbItem": "Relleno AFECTO",
+                                "QtyItem": 54,
+                                "PrcItem": 1808,
+                                "Impuesto" : [
+                                  {
+                                    "sii_code": 14
+                                  }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "TipoDTE": 61,
+                "caf_file": [
+                    "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+NzY4ODMyNDEtMjwvUkU+CjxSUz5PRE9PQ09PUCBTUEE8L1JTPgo8VEQ+NjE8L1REPgo8Uk5HPjxEPjE8L0Q+PEg+MjA8L0g+PC9STkc+CjxGQT4yMDE4LTA4LTA2PC9GQT4KPFJTQVBLPjxNPjMzOHNndW5DdTZsOVN0MitoaXh0T0NaWWgydk1MN1VnTGdHNkRXT0lVVWRUc3QxZllkRENsNG5LcWNzQjg2Nm5KRlROQ3VMelZIaWpiaUVFQk9JVXNRPT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5IWmN5QkhiMU01ZHRtZ1FBaHZNRFVVYk1VTDFPM1p0bjN6eXlHSFFlY213cWhzZk1QWEp3dGZzUE9jVGd0YmNZejJVUDhmcmF4M2hGVGVCY0RsekhkQT09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk93SUJBQUpCQU45L0xJTHB3cnVwZlVyZHZvWXNiVGdtV0lkcnpDKzFJQzRCdWcxamlGRkhVN0xkWDJIUQp3cGVKeXFuTEFmT3VweVJVelFyaTgxUjRvMjRoQkFUaUZMRUNBUU1DUVFDVS8zTUI4U3g5RzZqY2s5Ulpjdk42CnhEc0U4b2dmemhWMEFTYXpsN0EyTGs0b1VUMXJtVHg4Vnd0WjQxbTJWQ29icWVMd1ZDS3o3Ujd6Z2FhdE5qTkwKQWlFQTgwZ2ZjQWtDR1dPcUJFZG5VaUZIZjNndk4xdmIybWFJV1FXMnAvVEVZWDBDSVFEckxrUVROMmpPZVYwMQpXNDZwUU9qb2dxYkJSb2prNEF5Yit5ZmlERXhtUlFJaEFLSXdGUFZiVnJ1WHhxMkU3NHdXTDZwUUgzbzlQVHhFCld1WUR6eHFqTFpaVEFpRUFuTW1DdDNwRjN2dVRlT2UwY05Yd213SEVnTm13bUpWZHZWSWFsckxkbVlNQ0lRRFEKWDY3VFdZeStsTEZQZkhhZ3hjNWxPT2ZGWlJPUzBYbjBhNXcxekRnUE5nPT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0KPC9SU0FTSz4KCjxSU0FQVUJLPi0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tCk1Gb3dEUVlKS29aSWh2Y05BUUVCQlFBRFNRQXdSZ0pCQU45L0xJTHB3cnVwZlVyZHZvWXNiVGdtV0lkcnpDKzEKSUM0QnVnMWppRkZIVTdMZFgySFF3cGVKeXFuTEFmT3VweVJVelFyaTgxUjRvMjRoQkFUaUZMRUNBUU09Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo8L1JTQVBVQks+CjwvQVVUT1JJWkFDSU9OPgo="
+                    ],
+                "documentos":[
+                    {
+                        "NroDte": 3,
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 1,
+                                "FechaEmis": "2018-08-10"
+                            },
+                            "Receptor": {
+                                "RUTRecep": "16291998-9",
+                                "RznSocRecep": "Daniel Santibáñez Polanco",
+                                "GiroRecep": "Insumos",
+                                "DirRecep": "Nunoa5 ",
+                                "CmnaRecep": "Nunoa",
+                                "CiudadRecep": "Santiago"
+                            }
+                        },
+                        "Detalle": [
+                            {
+                                "NroLinDet": 1,
+                                "NmbItem": "Relleno AFECTO",
+                                "QtyItem": 54,
+                                "PrcItem": 1808,
+                                "Impuesto" : [
+                                  {
+                                    "sii_code": 14
+                                  }
+                                ]
+                            }
+                        ],
+                        "Referencia": [
+                            {
+                                "NroLinRef": 1,
+                                "TpoDocRef": 33,
+                                "FolioRef": 22,
+                                "FchRef": "2018-08-10",
+                                "CodRef": 1,
+                                "RazonRef": "Anulado"
+                            }
+                        ]
+                    },
+                    {
+                        "NroDte": 4,
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 2,
+                                "FechaEmis": "2018-08-10"
+                            },
+                            "Receptor": {
+                                "RUTRecep": "16291998-9",
+                                "RznSocRecep": "Daniel Santibáñez Polanco",
+                                "GiroRecep": "Insumos",
+                                "DirRecep": "Nunoa5 ",
+                                "CmnaRecep": "Nunoa",
+                                "CiudadRecep": "Santiago"
+                            }
+                        },
+                        "Detalle": [
+                            {
+                                "NroLinDet": 1,
+                                "NmbItem": "Relleno AFECTO",
+                                "QtyItem": 54,
+                                "PrcItem": 1808,
+                                "Impuesto" : [
+                                  {
+                                    "sii_code": 14
+                                  }
+                                ]
+                            }
+                        ],
+                        "Referencia": [
+                            {
+                                "NroLinRef": 1,
+                                "TpoDocRef": 33,
+                                "FolioRef": 23,
+                                "FchRef": "2018-08-10",
+                                "CodRef": 1,
+                                "RazonRef": "Anulado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "Modo": "certificacion"
+    },
+    "test": true,
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "ValidacionCom": {
+        "IdRespuesta": "22",
+        "NmbContacto": "Nombre recepcion",
+        "MailContacto": "dansanti@gmail.com",
+        "FonoContacto": "+56666",
+        "Receptor": {
+        	    "RUTRecep": "88888888-8"
+        },
+        "DTEs":
+            [
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "TipoDTE": 33,
+                            "Folio": 14,
+                            "FechaEmis": "2017-05-30"
+                        },
+                        "Emisor": {
+                            "RUTEmisor": "16291998-9"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "76883241-2"
+                        }
+                    },
+                    "CodEnvio": 222,
+                    "EstadoDTE": 0,
+                    "EstadoDTEGlosa": "Todo Ok"
+                },
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "TipoDTE": 33,
+                            "Folio": 14,
+                            "FechaEmis": "2017-05-30"
+                        },
+                        "Emisor": {
+                            "RUTEmisor": "16291998-9"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "76883241-2"
+                        }
+                    },
+                    "CodEnvio": 222,
+                    "CodRchDsc": -1,
+                    "EstadoDTE": 2,
+                    "EstadoDTEGlosa": "Disconforme"
+                }
+            ]
+    }
+}

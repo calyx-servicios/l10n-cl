@@ -1,0 +1,92 @@
+{
+    "FechaInicio": "2016-11-01",
+    "FechaFinal": "2016-11-01",
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "Modo": "certificacion",
+      "Resolucion": 0,
+      "FechaResolucion": "2016-06-14",
+    },
+    "ValorIva": 19,
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "Documentos": [
+        {
+            "TipoDTE": 39,
+            "documentos":[
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 37,
+                            "Fecha": "2016-11-01"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntNeto": 25000,
+                        "MntIVA": 22,
+                        "MntExento": 222,
+                        "MntTotal": 300000
+                    }
+                },
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 38,
+                            "Fecha": "2016-11-01"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntNeto": 25000,
+                        "MntIVA": 22,
+                        "MntExento": 222,
+                        "MntTotal": 300000
+                    }
+
+                }
+            ]
+        },
+        {
+            "TipoDTE": 61,
+            "caf_file": [
+                "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+MTYyOTE5OTgtOTwvUkU+CjxSUz5EQU5JRUwgQUxFSkFORFJPIFNBTlRJQkFORVogUE9MQU5DTzwvUlM+CjxURD42MTwvVEQ+CjxSTkc+PEQ+MTwvRD48SD4yMDwvSD48L1JORz4KPEZBPjIwMTYtMDctMTU8L0ZBPgo8UlNBUEs+PE0+d2VTMHJYbHpOcTJpcmZ3UVhLMXduN1J4MzlTYmRPbjFVSExLS3RxTG9BZjNsYm5kVE5CSXhyWnNqYXJCZzVucHFUS1hvZ0ZCTmc5b2NLdW5HUU10MVE9PTwvTT48RT5Bdz09PC9FPjwvUlNBUEs+CjxJREs+MTAwPC9JREs+CjwvREE+CjxGUk1BIGFsZ29yaXRtbz0iU0hBMXdpdGhSU0EiPkdnMHF6Y3F2R3JZRjNIaVE4QlI1bEJBZko0dXFDRmExelJHT1o4aEJPcWFPWlAvdUlKQXp3K3F4RkpRb1VEbmhWQzRRdG1jVHlNNEg2TEZBUzI3UVRnPT08L0ZSTUE+CjwvQ0FGPgo8UlNBU0s+LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlCT2dJQkFBSkJBTUhrdEsxNWN6YXRvcTM4RUZ5dGNKKzBjZC9VbTNUcDlWQnl5aXJhaTZBSDk1VzUzVXpRClNNYTJiSTJxd1lPWjZha3lsNklCUVRZUGFIQ3JweGtETGRVQ0FRTUNRUUNCUXlNZVVQZDV5UmNlcUFyb2M2QnEKZUV2cWpiejRtL2pnVEliSFBGMFZXWHYvVFZEekZkK1hQNEUwSy84dXAvTjM0WlNYY0VZcGdtNUF1Q3R5QTgyegpBaUVBMzUyS0VQb1VCS0Y0STh6M2VELzkvbExJZ3hNcmY3WnUrVGZtQ0ZTeUdJTUNJUURkK1R2UzVodDB3bDhHCjhuRktmWi8rSXBlMXE2MVlRVnpKMTdGZG1VdGd4d0loQUpVVHNXQ211QU1XVUJmZCtsQXFxVlEzTUZkaUhQL08KOUtZbFJBV056QkJYQWlFQWsvdDlOMFFTVGRicUJLR2czRk8vL3NHNmVSMGVPdFk5MitVZzZSRGM2eThDSURiNwo4ZndIWnNYTmxMNTVxODc0aktGYTZsWUdRSU93bjRmQU52YktlR1FrCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCjwvUlNBU0s+Cgo8UlNBUFVCSz4tLS0tLUJFR0lOIFBVQkxJQyBLRVktLS0tLQpNRm93RFFZSktvWklodmNOQVFFQkJRQURTUUF3UmdKQkFNSGt0SzE1Y3phdG9xMzhFRnl0Y0orMGNkL1VtM1RwCjlWQnl5aXJhaTZBSDk1VzUzVXpRU01hMmJJMnF3WU9aNmFreWw2SUJRVFlQYUhDcnB4a0RMZFVDQVFNPQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0KPC9SU0FQVUJLPgo8L0FVVE9SSVpBQ0lPTj4="
+            ],
+            "documentos":[
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 10,
+                            "Fecha": "2016-11-01"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntNeto": 25000,
+                        "MntIVA": 22,
+                        "MntExento": 222,
+                        "MntTotal": 300000
+                    },
+                  "Referencias": [
+                    {
+                      "origen": 37,
+                      "tpo_doc_ref": 33,
+                      "cod_ref": 3,
+                      "motivo": "Corrige montos",
+                      "fecha_documento":  "2016-11-30"
+                    }
+                  ]
+                }
+            ]
+        }
+    ]
+}

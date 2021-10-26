@@ -1,0 +1,8 @@
+.DS_Store
+*.pyc
+/nb-configuration.xml
+/nbproject/private/
+/nbproject/
+/build/
+/dist/
+/facturacion_electronica.egg-info/

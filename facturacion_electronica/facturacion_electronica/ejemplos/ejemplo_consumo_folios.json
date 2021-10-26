@@ -1,0 +1,157 @@
+{
+    "test": true,
+    "verify": true,
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios integrales de informática",
+      "Actecos": [
+          726000
+        ],
+      "DirOrigen": "Melipilla",
+      "CmnaOrigen": "Melipilla",
+      "Modo": "certificacion",
+      "NroResol": 0,
+      "FchResol": "2016-06-14",
+      "ValorIva": 19,
+      "Sucursal": "Nombre sec",
+      "CdgSIISucur":  123123
+    },
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "ConsumoFolios":[
+        {
+            "FchInicio": "2016-11-01",
+            "FchFinal": "2016-11-01",
+            "Documento": [
+                {
+                    "TipoDTE": 39,
+                    "documentos":[
+                        {
+                            "CodVndor": 1,
+                            "codigo_caja": 1,
+                            "Encabezado": {
+                                "IdDoc": {
+                                    "Folio": 37,
+                                    "FechaEmis": "2016-11-01"
+                                },
+                                "Receptor": {
+                                    "RUTRecep": "66666666-6",
+                                    "RznSocRecep": "Sin RUT",
+                                    "GiroRecep": "Particular",
+                                    "DirRecep": "Santiago",
+                                    "CmnaRecep": "Santiago"
+                                }
+                            },
+                            "Detalle": [
+                                {
+                                    "NmbItem": "Producto 11",
+                                    "QtyItem": 5,
+                                    "PrcItem": 25000,
+                                    "impuesto" : [
+                                      {
+                                        "price_include": true
+                                      }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "CodVndor": 1,
+                            "codigo_caja": 1,
+                            "Encabezado": {
+                                "IdDoc": {
+                                    "Folio": 38,
+                                    "FechaEmis": "2016-11-01"
+                                },
+                                "Receptor": {
+                                    "RUTRecep": "66666666-6",
+                                    "RznSocRecep": "Sin RUT",
+                                    "DirRecep": "Santiago",
+                                    "CmnaRecep": "Santiago"
+                                }
+                            },
+                            "Detalle": [
+                                {
+                                    "NmbItem": "Producto 1",
+                                    "QtyItem": 5,
+                                    "PrcItem": 25000,
+                                    "Impuesto": [
+                                      {
+                                        "price_include": true
+                                      }
+                                    ]
+                                },
+                                {
+                                    "NmbItem": "Producto 2",
+                                    "QtyItem": 10,
+                                    "PrcItem": 25000,
+                                    "Impuesto": [
+                                      {
+                                        "price_include": true
+                                      }
+                                    ]
+                                },
+                                {
+                                    "IndExe": 1,
+                                    "NmbItem": "Horas desarrollo Exento",
+                                    "QtyItem": 10,
+                                    "PrcItem": 25000
+                                }
+                            ],
+                            "TpoMoneda":{
+                                "TpoMoneda":    2,
+                                "TpoCambio": 123
+                            }
+                        }
+                    ]
+                },
+                {
+                    "TipoDTE": 61,
+                    "documentos":[
+                        {
+                            "CodVndor": 1,
+                            "TpoImpresion": "T",
+                            "Encabezado": {
+                                "IdDoc": {
+                                    "Folio": 10,
+                                    "FechaEmis": "2016-11-01"
+                                },
+                                "Receptor": {
+                                    "RUTRecep": "66666666-6",
+                                    "RznSocRecep": "Sin RUT",
+                                    "DirRecep": "Santiago",
+                                    "CmnaRecep": "Santiago"
+                                }
+                            },
+                            "Detalle": [
+                                {
+                                    "NmbItem": "producto 1",
+                                    "QtyItem": 5,
+                                    "PrcItem": 25000,
+                                    "Impuesto": [
+                                      {
+                                        "price_include": true
+                                      }
+                                    ]
+                                }
+                            ],
+                          "Referencia": [
+                            {
+                              "FolioRef": 38,
+                              "TpoDocRef": 39,
+                              "CodRef": 3,
+                              "RznRef": "Corrige montos",
+                              "FchRef":  "2016-11-01"
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

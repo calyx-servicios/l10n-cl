@@ -1,0 +1,12 @@
+{
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "Modo": "certificacion"
+    },
+    "firma_electronica": {
+        "string_firma": "MII..",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "codigo_envio": "000444456"
+}

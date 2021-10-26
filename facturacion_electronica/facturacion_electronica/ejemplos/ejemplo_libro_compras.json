@@ -1,0 +1,192 @@
+{
+    "test": true,
+    "verify": true,
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios informáticos integrales",
+      "Actecos": [
+          726000
+        ],
+      "DirOrigen": "Direccion Ejemplo",
+      "Telefono": "+56997111380",
+      "CmnaOrigen": "Santiago",
+      "CiudadOrigen": "Santiago",
+      "CorreoEmisor": "contacto@odoocoop.cl",
+      "Modo": "certificacion",
+      "NroResol": 0,
+      "FchResol": "2018-07-18",
+      "ValorIva": 19
+    },
+    "firma_electronica": {
+        "string_firma": "MII..",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "Libro":
+    {
+        "TipoOperacion": "COMPRA",
+        "PeriodoTributario": "2018-06",
+        "TipoEnvio": "TOTAL",
+        "FctProp": 0.6,
+        "Documento": [
+            {
+                "TipoDTE": 30,
+                "documentos":[
+                      {
+                        "resumen": true,
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 234,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 17932,
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 33,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 32,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 6007,
+                        "MntExe":8656,
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 30,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 781,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 29745,
+                        "IVAUsoComun": true,
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 60,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 451,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 2697,
+                        "Referencia":[
+                            {
+                                "TpoDocRef": 30,
+                                "FolioRef": 32,
+                                "FchRef":"2018-08-10"
+                            }
+                        ],
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 33,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 67,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 9804,
+                        "CodIVANoRec": 4,
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 46,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 9,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 9463,
+                        "ImptoReten":
+                            [
+                                {
+                                    "TipoImp": 15,
+                                    "TasaImp": 19
+                                }
+                            ],
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "resumen": true,
+                "TipoDTE": 60,
+                "documentos":[
+                      {
+                        "Encabezado": {
+                            "IdDoc": {
+                                "Folio": 211,
+                                "FechaEmis": "2018-08-10"
+                            },
+                        "MntNeto": 3982,
+                        "Referencia":[
+                            {
+                                "TpoDocRef": 30,
+                                "FolioRef": 32,
+                                "FchRef":"2018-08-10"
+                            }
+                        ],
+                        "Emisor": {
+                                "RUTEmisor": "16291998-9",
+                                "RznSoc": "Daniel Santibáñez Polanco"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

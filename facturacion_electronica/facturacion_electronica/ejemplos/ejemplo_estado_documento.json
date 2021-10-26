@@ -1,0 +1,65 @@
+{
+    "Emisor": {
+      "RUTEmisor": "76350890-0",
+      "Modo": "certificacion"
+    },
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "Documento": [
+        {
+            "TipoDTE": 33,
+            "documentos":[
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 14,
+                            "FechaEmis": "2017-05-30"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "13242180-3"
+                        }
+                    },
+                    "Totales": {
+                        "MntTotal": 119000
+                    }
+                },
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 14,
+                            "FechaEmis": "2017-05-30"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "13242180-3"
+                        }
+                    },
+                    "Totales": {
+                        "MntTotal": 120000
+                    }
+                }
+            ]
+        },
+        {
+            "TipoDTE": 56,
+            "documentos":[
+                {
+                    "Encabezado": {
+                        "IdDoc": {
+                            "Folio": 130,
+                            "FechaEmis": "2016-11-01"
+                        },
+                        "Receptor": {
+                            "RUTRecep": "66666666-6"
+                        }
+                    },
+                    "Totales": {
+                        "MntTotal": 300000
+                    }                    
+                }
+            ]
+        }
+    ]
+}

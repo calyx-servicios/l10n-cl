@@ -1,0 +1,56 @@
+{
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "Modo": "certificacion"
+    },
+    "test": true,
+    "firma_electronica": {
+        "string_firma": "MII...",
+        "string_password": "test",
+        "rut_firmante": "16291998-9"
+    },
+    "RecepcionMer": {
+        "Recinto": "direccion",
+        "FonoContacto": "+56666",
+        "MailContacto": "dansanti@gmail.com",
+        "NmbContacto": "Nombre recepcion",
+        "Receptor": {
+        	    "RUTRecep": "88888888-8"
+        },
+        "DTEs": [
+            {
+                "Encabezado": {
+                    "IdDoc": {
+                        "TipoDTE": 33,
+                        "Folio": 14,
+                        "FechaEmis": "2017-05-30"
+                    },
+                    "Emisor": {
+                        "RUTEmisor": "16291998-9"
+                    },
+                    "Receptor": {
+                            "RUTRecep": "76883241-2"
+                    }
+                },
+                "Declaracion": "El acuse de recibo que se declara en este acto, de acuerdo a lo dispuesto en la letra b) del Art. 4, y la letra c) del Art. 5 de la Ley 19.983, acredita que la entrega de mercaderias o servicio(s) prestado(s) ha(n) sido recibido(s)."
+            },
+            {
+                "Encabezado": {
+                    "IdDoc": {
+                        "TipoDTE": 33,
+                        "Folio": 14,
+                        "FechaEmis": "2017-05-30"
+                    },
+                    "Emisor": {
+                        "RUTEmisor": "16291998-9"
+                    },
+                    "Receptor": {
+                        "RUTRecep": "76883241-2"
+                    }
+                },
+                "Declaracion": "El acuse de recibo que se declara en este acto, de acuerdo a lo dispuesto en la letra b) del Art. 4, y la letra c) del Art. 5 de la Ley 19.983, acredita que la entrega de mercaderias o servicio(s) prestado(s) ha(n) sido recibido(s)."
+            }
+        ]
+    }
+
+}

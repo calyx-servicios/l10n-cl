@@ -1,0 +1,195 @@
+{
+    "test": true,
+    "Emisor": {
+      "RUTEmisor": "76883241-2",
+      "RznSoc": "OdooCoop SPA",
+      "GiroEmis": "Servicios Informáticos Integrales",
+      "Actecos": [
+    726000
+  ],
+      "DirOrigen": "Melipilla",
+      "CmnaOrigen": "Melipilla",
+      "Modo": "certificacion",
+      "Resolucion": 0,
+      "FechaResolucion": "2016-06-14",
+      "ValorIva": 19,
+      "Sucursales": [
+      {
+          "CodigoSIISucursal":  123123,
+          "DireccionSuursal" : "Direccion",
+          "NombreSucursal": "Nombre",
+          "EmisoraDelDocumento": true
+      }
+  ]
+    },
+    "firma_electronica": {
+    "string_firma": "MII...",
+    "string_password": "test",
+    "rut_firmante": "16291998-9"
+    },
+    "Documentos": [
+  {
+      "TipoDTE": 33,
+      "caf_file": [
+           "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+MTYyOTE5OTgtOTwvUkU+CjxSUz5EQU5JRUwgQUxFSkFORFJPIFNBTlRJQkFORVogUE9MQU5DTzwvUlM+CjxURD4zMzwvVEQ+CjxSTkc+PEQ+MzM8L0Q+PEg+ODI8L0g+PC9STkc+CjxGQT4yMDE2LTA3LTE5PC9GQT4KPFJTQVBLPjxNPm11OWJjMWg2L2IrSVZGOEFXWVlwZWhFcFNVck13Ukw0RllSWnhBSTgwSmR2RkZqWkIraGZ3TkU0aGMwVXZTb0E0bmkzeVdqbU5PUlZEVzcyTC9OSXZRPT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5pQU81YUozVjlTSFFPdDcvaDREZUFKd1pOV1p3Uzg3eWcrOFNpbVBzenVmOGJqSnk0YTlrVnpmcVFTZkpvNmk2ZlBKQ2hwN3NmSjVRaUptdWJ4dGJDUT09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk9nSUJBQUpCQUpydlczTllldjIvaUZSZkFGbUdLWG9SS1VsS3pNRVMrQldFV2NRQ1BOQ1hieFJZMlFmbwpYOERST0lYTkZMMHFBT0o0dDhsbzVqVGtWUTF1OWkvelNMMENBUU1DUUdkS1BQZVFVZjUvc0RnL1ZaRUVHNmEyCkc0WXgzZFlNcFdPdGtTMVcwelc1UUh6a0k5WUFJckNJMXptZ1REK2RDTGRwVzJreHFWQXVwLythVzNpdjlOTUMKSVFESnl6d2RETEFrZXFxam52VlMrUjE1d3Y0ZmorVzRzMlkvOWxjVklqUEV6d0loQU1TTnhvWTZPQWM5V1ZJUQpaMDlrb1BvTVhJOGJ1SytKT0JrWHNGZll0NVN6QWlFQWhvZDlhTE1nR0ZISEY3OU9OMUMrVVN5cGFsL3VleUpFCktxUTZEaGJOTGQ4Q0lRQ0RDUzhFSnRBRTA1RGhZRVRmbUd0UlhaTUtFbnNmc05BUXVuV1A1Yys0ZHdJaEFJcmIKakhQSVl4am1vckJaSkl0eDE0TUcrNkFRWDhKN1VOSFphRHY0cDBLTQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo8L1JTQVNLPgoKPFJTQVBVQks+LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZvd0RRWUpLb1pJaHZjTkFRRUJCUUFEU1FBd1JnSkJBSnJ2VzNOWWV2Mi9pRlJmQUZtR0tYb1JLVWxLek1FUworQldFV2NRQ1BOQ1hieFJZMlFmb1g4RFJPSVhORkwwcUFPSjR0OGxvNWpUa1ZRMXU5aS96U0wwQ0FRTT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCjwvUlNBUFVCSz4KPC9BVVRPUklaQUNJT04+Cg==",
+           "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+MTYyOTE5OTgtOTwvUkU+CjxSUz5EQU5JRUwgQUxFSkFORFJPIFNBTlRJQkFORVogUE9MQU5DTzwvUlM+CjxURD4zNDwvVEQ+CjxSTkc+PEQ+MzM8L0Q+PEg+ODI8L0g+PC9STkc+CjxGQT4yMDE2LTA3LTE5PC9GQT4KPFJTQVBLPjxNPm11OWJjMWg2L2IrSVZGOEFXWVlwZWhFcFNVck13Ukw0RllSWnhBSTgwSmR2RkZqWkIraGZ3TkU0aGMwVXZTb0E0bmkzeVdqbU5PUlZEVzcyTC9OSXZRPT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5pQU81YUozVjlTSFFPdDcvaDREZUFKd1pOV1p3Uzg3eWcrOFNpbVBzenVmOGJqSnk0YTlrVnpmcVFTZkpvNmk2ZlBKQ2hwN3NmSjVRaUptdWJ4dGJDUT09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk9nSUJBQUpCQUpydlczTllldjIvaUZSZkFGbUdLWG9SS1VsS3pNRVMrQldFV2NRQ1BOQ1hieFJZMlFmbwpYOERST0lYTkZMMHFBT0o0dDhsbzVqVGtWUTF1OWkvelNMMENBUU1DUUdkS1BQZVFVZjUvc0RnL1ZaRUVHNmEyCkc0WXgzZFlNcFdPdGtTMVcwelc1UUh6a0k5WUFJckNJMXptZ1REK2RDTGRwVzJreHFWQXVwLythVzNpdjlOTUMKSVFESnl6d2RETEFrZXFxam52VlMrUjE1d3Y0ZmorVzRzMlkvOWxjVklqUEV6d0loQU1TTnhvWTZPQWM5V1ZJUQpaMDlrb1BvTVhJOGJ1SytKT0JrWHNGZll0NVN6QWlFQWhvZDlhTE1nR0ZISEY3OU9OMUMrVVN5cGFsL3VleUpFCktxUTZEaGJOTGQ4Q0lRQ0RDUzhFSnRBRTA1RGhZRVRmbUd0UlhaTUtFbnNmc05BUXVuV1A1Yys0ZHdJaEFJcmIKakhQSVl4am1vckJaSkl0eDE0TUcrNkFRWDhKN1VOSFphRHY0cDBLTQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo8L1JTQVNLPgoKPFJTQVBVQks+LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZvd0RRWUpLb1pJaHZjTkFRRUJCUUFEU1FBd1JnSkJBSnJ2VzNOWWV2Mi9pRlJmQUZtR0tYb1JLVWxLek1FUworQldFV2NRQ1BOQ1hieFJZMlFmb1g4RFJPSVhORkwwcUFPSjR0OGxvNWpUa1ZRMXU5aS96U0wwQ0FRTT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCjwvUlNBUFVCSz4KPC9BVVRPUklaQUNJT04+Cg=="
+          ],
+      "documentos":[
+          {
+            "NroDte": 1,
+              "Encabezado": {
+                  "IdDoc": {
+                      "Folio": 37,
+                      "FechaEmis": "2016-11-01"
+                  },
+                  "Receptor": {
+                      "RUTRecep": "66666666-6",
+                      "RznSocRecep": "Sin RUT",
+                      "GiroRecep": "Particular",
+                      "DirRecep": "Santiago",
+                      "CmnaRecep": "Santiago"
+                  }
+              },
+              "Detalle": [
+                  {
+                    "NroLinDet": 1,
+                    "NmbItem": "Producto 11",
+                    "QtyItem": 5,
+                    "PrcItem": 25000,
+                    "Impuesto" : [
+                      {
+                          "sii_code": 14
+                      }
+                    ]
+                  }
+              ],
+              "Referencia": [
+                  {
+                      "NroLinRef": 1,
+                      "FolioRef": 24,
+                      "TpoDocRef": "SET",
+                      "RazonReferencia": "CASO 1",
+                      "FchRef":  "2016-11-30"
+                  }
+              ]
+          },
+          {
+            "NroDte": 2,
+              "Encabezado": {
+                  "IdDoc": {
+                      "Folio": 38,
+                      "FechaEmis": "2016-11-01"
+                  },
+                  "Receptor": {
+                      "RUTRecep": "66666666-6",
+                      "RznSocRecep": "Sin RUT",
+                      "GiroRecep": "Particular",
+                      "DirRecep": "Santiago",
+                      "CmnaRecep": "Santiago"
+                  }
+              },
+              "DscRcgGlobal":[
+                {
+                  "NroLinDR": 1,
+                  "TpoMov": "R",
+                  "GlosaDR": "Recargo Items Afectos",
+                  "TpoValor": "$",
+                  "ValorDR": "220",
+                  "Afectos": true,
+                  "Exentos": false
+                }
+              ],
+              "Detalle": [
+                  {
+                    "NroLinDet": 1,
+                      "NmbItem": "Producto 1",
+                      "QtyItem": 5,
+                      "PrcItem": 25000
+                  },
+                  {
+                    "NroLinDet": 2,
+                      "NmbItem": "Producto con retencion Total",
+                      "QtyItem": 10,
+                      "PrcItem": 25000,
+                      "Impuesto": [
+                        {
+                          "sii_code": 14
+                        }
+                      ]
+                  },
+                  {
+                    "NroLinDet": 3,
+                      "IndExe": 1,
+                      "NmbItem": "Horas desarrollo Exento",
+                      "QtyItem": 10,
+                      "PrcItem": 25000
+                  }
+              ],
+              "TpoMoneda":{
+                  "TpoMoneda":    2,
+                  "TpoCambio": 123
+              }
+          }
+      ]
+  },
+  {
+      "TipoDTE": 56,
+      "caf_file": [
+          "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+MTYyOTE5OTgtOTwvUkU+CjxSUz5EQU5JRUwgQUxFSkFORFJPIFNBTlRJQkFORVogUE9MQU5DTzwvUlM+CjxURD4zMzwvVEQ+CjxSTkc+PEQ+MzM8L0Q+PEg+ODI8L0g+PC9STkc+CjxGQT4yMDE2LTA3LTE5PC9GQT4KPFJTQVBLPjxNPm11OWJjMWg2L2IrSVZGOEFXWVlwZWhFcFNVck13Ukw0RllSWnhBSTgwSmR2RkZqWkIraGZ3TkU0aGMwVXZTb0E0bmkzeVdqbU5PUlZEVzcyTC9OSXZRPT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5pQU81YUozVjlTSFFPdDcvaDREZUFKd1pOV1p3Uzg3eWcrOFNpbVBzenVmOGJqSnk0YTlrVnpmcVFTZkpvNmk2ZlBKQ2hwN3NmSjVRaUptdWJ4dGJDUT09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk9nSUJBQUpCQUpydlczTllldjIvaUZSZkFGbUdLWG9SS1VsS3pNRVMrQldFV2NRQ1BOQ1hieFJZMlFmbwpYOERST0lYTkZMMHFBT0o0dDhsbzVqVGtWUTF1OWkvelNMMENBUU1DUUdkS1BQZVFVZjUvc0RnL1ZaRUVHNmEyCkc0WXgzZFlNcFdPdGtTMVcwelc1UUh6a0k5WUFJckNJMXptZ1REK2RDTGRwVzJreHFWQXVwLythVzNpdjlOTUMKSVFESnl6d2RETEFrZXFxam52VlMrUjE1d3Y0ZmorVzRzMlkvOWxjVklqUEV6d0loQU1TTnhvWTZPQWM5V1ZJUQpaMDlrb1BvTVhJOGJ1SytKT0JrWHNGZll0NVN6QWlFQWhvZDlhTE1nR0ZISEY3OU9OMUMrVVN5cGFsL3VleUpFCktxUTZEaGJOTGQ4Q0lRQ0RDUzhFSnRBRTA1RGhZRVRmbUd0UlhaTUtFbnNmc05BUXVuV1A1Yys0ZHdJaEFJcmIKakhQSVl4am1vckJaSkl0eDE0TUcrNkFRWDhKN1VOSFphRHY0cDBLTQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo8L1JTQVNLPgoKPFJTQVBVQks+LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZvd0RRWUpLb1pJaHZjTkFRRUJCUUFEU1FBd1JnSkJBSnJ2VzNOWWV2Mi9pRlJmQUZtR0tYb1JLVWxLek1FUworQldFV2NRQ1BOQ1hieFJZMlFmb1g4RFJPSVhORkwwcUFPSjR0OGxvNWpUa1ZRMXU5aS96U0wwQ0FRTT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCjwvUlNBUFVCSz4KPC9BVVRPUklaQUNJT04+Cg==",
+          "PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxBVVRPUklaQUNJT04+CjxDQUYgdmVyc2lvbj0iMS4wIj4KPERBPgo8UkU+MTYyOTE5OTgtOTwvUkU+CjxSUz5EQU5JRUwgQUxFSkFORFJPIFNBTlRJQkFORVogUE9MQU5DTzwvUlM+CjxURD4zNDwvVEQ+CjxSTkc+PEQ+MzM8L0Q+PEg+ODI8L0g+PC9STkc+CjxGQT4yMDE2LTA3LTE5PC9GQT4KPFJTQVBLPjxNPm11OWJjMWg2L2IrSVZGOEFXWVlwZWhFcFNVck13Ukw0RllSWnhBSTgwSmR2RkZqWkIraGZ3TkU0aGMwVXZTb0E0bmkzeVdqbU5PUlZEVzcyTC9OSXZRPT08L00+PEU+QXc9PTwvRT48L1JTQVBLPgo8SURLPjEwMDwvSURLPgo8L0RBPgo8RlJNQSBhbGdvcml0bW89IlNIQTF3aXRoUlNBIj5pQU81YUozVjlTSFFPdDcvaDREZUFKd1pOV1p3Uzg3eWcrOFNpbVBzenVmOGJqSnk0YTlrVnpmcVFTZkpvNmk2ZlBKQ2hwN3NmSjVRaUptdWJ4dGJDUT09PC9GUk1BPgo8L0NBRj4KPFJTQVNLPi0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0tLS0KTUlJQk9nSUJBQUpCQUpydlczTllldjIvaUZSZkFGbUdLWG9SS1VsS3pNRVMrQldFV2NRQ1BOQ1hieFJZMlFmbwpYOERST0lYTkZMMHFBT0o0dDhsbzVqVGtWUTF1OWkvelNMMENBUU1DUUdkS1BQZVFVZjUvc0RnL1ZaRUVHNmEyCkc0WXgzZFlNcFdPdGtTMVcwelc1UUh6a0k5WUFJckNJMXptZ1REK2RDTGRwVzJreHFWQXVwLythVzNpdjlOTUMKSVFESnl6d2RETEFrZXFxam52VlMrUjE1d3Y0ZmorVzRzMlkvOWxjVklqUEV6d0loQU1TTnhvWTZPQWM5V1ZJUQpaMDlrb1BvTVhJOGJ1SytKT0JrWHNGZll0NVN6QWlFQWhvZDlhTE1nR0ZISEY3OU9OMUMrVVN5cGFsL3VleUpFCktxUTZEaGJOTGQ4Q0lRQ0RDUzhFSnRBRTA1RGhZRVRmbUd0UlhaTUtFbnNmc05BUXVuV1A1Yys0ZHdJaEFJcmIKakhQSVl4am1vckJaSkl0eDE0TUcrNkFRWDhKN1VOSFphRHY0cDBLTQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo8L1JTQVNLPgoKPFJTQVBVQks+LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZvd0RRWUpLb1pJaHZjTkFRRUJCUUFEU1FBd1JnSkJBSnJ2VzNOWWV2Mi9pRlJmQUZtR0tYb1JLVWxLek1FUworQldFV2NRQ1BOQ1hieFJZMlFmb1g4RFJPSVhORkwwcUFPSjR0OGxvNWpUa1ZRMXU5aS96U0wwQ0FRTT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCjwvUlNBUFVCSz4KPC9BVVRPUklaQUNJT04+Cg=="
+      ],
+      "documentos":[
+          {
+            "NroDte": 3,
+              "Encabezado": {
+                  "IdDoc": {
+                      "Folio": 41,
+                      "FechaEmis": "2016-11-01"
+                  },
+                  "Receptor": {
+                      "RUTRecep": "66666666-6",
+                      "RznSocRecep": "Sin RUT",
+                      "GiroRecep": "Particular",
+                      "DirRecep": "Santiago",
+                      "CmnaRecep": "Santiago"
+                  }
+              },
+              "DscRcgGlobal":[
+                {
+                  "NroLinDR": 1,
+                  "TpoMov": "D",
+                  "GlosaDR": "Descuento Items Afectos",
+                  "TpoValor": "$",
+                  "ValorDR": "2000",
+                  "Afectos": true,
+                  "Exentos": false
+                }
+              ],
+              "Detalle": [
+                  {
+                    "NroLinDet": 1,
+                      "IndExe": 1,
+                      "NmbItem": "Horas desarrollo",
+                      "QtyItem": 5,
+                      "PrcItem": 25000,
+                      "Impuesto": [
+                        {
+                          "sii_code": 14
+                        }
+                      ]
+                  }
+              ],
+            "Referencia": [
+              {
+                "FolioRef": 37,
+                "TpoDocRef": 33,
+                "CodRef": 3,
+                "motivo": "Corrige montos",
+                "FchRef":  "2016-11-30"
+              }
+            ]
+          }
+      ]
+  }
+    ]
+}
