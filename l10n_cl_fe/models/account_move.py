@@ -1303,7 +1303,8 @@ class AccountMove(models.Model):
                     "move_type",
                     "in",
                     [TYPE2JOURNAL[ty] for ty in inv_types if ty in TYPE2JOURNAL],
-                )("company_id", "=", company_id),
+                ),
+                ("company_id", "=", company_id),
             ]
             journal_id = self.env["account.journal"].search(domain, limit=1)
             return journal_id
