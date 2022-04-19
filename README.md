@@ -6,7 +6,7 @@ Módulos CE utilizados para la Localización Chilena.
 
 Usar el comando `$ pip3 install .` dentro de `facturacion_electronica` para ejecutar el setup.py
 
-## Reemplazar los siguientes archivos en el submódulo l10n_cl_fe/models.
+## Reemplazar los siguientes archivos en el submódulo dansanti/l10n-cl/l10n_cl_fe/models.
 
 `sii_cola_envio.py`
 
