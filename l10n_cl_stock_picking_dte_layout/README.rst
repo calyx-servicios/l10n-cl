@@ -1,6 +1,6 @@
-===========
-l10n cl stock picking dte layout
-===========
+============================
+Stock Picking Dte Layout Fix
+============================
 
 .. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    !! This file is intended to be in every module    !!
@@ -15,15 +15,15 @@ l10n cl stock picking dte layout
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fcalyx-lightgray.png?logo=github
-    :target: https://github.com/calyx-servicios/calyx.git
-    :alt: calyx-servicios/calyx.git
+.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fl10n--cl-lightgray.png?logo=github
+    :target: https://github.com/calyx-servicios/l10n-cl.git
+    :alt: calyx-servicios/l10n-cl
 
 |badge1| |badge2| |badge3|
 
 .. !!! Description must be max 2-3 paragraphs, and is required.
 
-This module extends the functionality of ... to support ... and to allow you to ...
+This module fix some phase shifts on Picking Dte Layout
 
 **Table of contents**
 
@@ -39,10 +39,6 @@ Do this ...
 
 .. !!! Configuration: This file is optional, it should explain how to configure the module before using it; it is aimed at advanced users. To configure this module, you need to:
 
-Configure
-=========
-
-Go to ...
 
 Usage
 =====
@@ -72,10 +68,7 @@ Contributors
 
 * `Calyx Servicios S.A. <https://odoo.calyx-cloud.com.ar/>`_
   
-  * Federico Gregori
-  * Cristian Paradiso
-  * Gabriela Perez
-  * Marco Oegg
+  * Gaston Pablo Perez
 
 Maintainers
 ~~~~~~~~~~~
@@ -89,4 +82,4 @@ This module is maintained by Calyx Servicios S.A.
 CALYX SERVICIOS S.A. is part of the PGK Consultores economic group, member of an important global network, a world organization.
 The PGK Consultores group is one of the 20 largest consultant-studios in Argentina with nearly 300 professionals.
 
-This module is part of the `Calyx <https://github.com/calyx-servicios/calyx.git>`_ project on GitHub.
+This module is part of the `Calyx <https://github.com/calyx-servicios>`_ project on GitHub.

@@ -216,9 +216,6 @@
                     </div>
                      </div>
 
-
-
-
                  <div class="footer">
                     <div class="last-page">
                        <div class="row">
@@ -312,21 +309,5 @@
               </t>
         </xpath>
     </template>
-
-    <!--<template id="dte_layout" inherit_id="l10n_cl_stock_picking.dte_layout">
-        <xpath expr="//div[hasclass('page')]/div[hasclass('row')]" position="replace">
-
-        </xpath>
-        <xpath expr="//div[hasclass('page')]" position="after">
-            <div class="footer">
-                <div class="last-page">
-
-
-
-                </div>
-            </div>
-        </xpath>
-
-  </template>-->
 
 </odoo>
